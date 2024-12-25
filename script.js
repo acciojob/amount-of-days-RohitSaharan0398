@@ -7,8 +7,10 @@ function daysOfAYear(num){
 				isLeapYear=true;
 			}
 		}
+		else
 		isLeapYear=true;
 	}
+
 	
 	if(isLeapYear)
 		return 366;
